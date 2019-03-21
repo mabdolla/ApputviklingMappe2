@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/registrerrestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="visRestaurant"
+        android:text="@string/all_restauranter" />
+
+    <Button
+        android:id="@+id/registrervenner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="visVenn"
+        android:text="@string/all_venner" />
+
+    <Button
+        android:id="@+id/registrerBestillinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="visBestillinger"
+        android:text="@string/all_bestilling" />
+
+</LinearLayout>

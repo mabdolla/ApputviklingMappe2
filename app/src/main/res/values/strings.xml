@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">S309856Mappe2</string>
+    <string name="rest_navn">Skriv inn navn:</string>
+    <string name="rest_telefon">Skriv inn telefonNummer:</string>
+    <string name="rest_id">Skriv inn id:</string>
+    <string name="rest_type">Skriv inn type:</string>
+    <string name="all_leggtil">Legg til</string>
+    <string name="all_slett">Slett</string>
+    <string name="all_visalle">Vis alle</string>
+    <string name="all_rediger">Rediger</string>
+    <string name="rest_addresse">Skriv inn addresse:</string>
+    <string name="all_restauranter">Restauranter</string>
+    <string name="all_venner">Venner</string>
+    <string name="bestilling_venn_id">Skriv inn venn ID:</string>
+    <string name="bestilling_rest_navn">Skriv inn restaurant navn:</string>
+    <string name="bestilling_date">Skriv inn dato:</string>
+    <string name="bestilling_time">Skriv inn tid:</string>
+    <string name="all_bestilling">Bestillinger</string>
+</resources>

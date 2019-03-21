@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android ="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rest_navn" />
+    <EditText
+        android:id="@+id/venn_navn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rest_telefon" />
+    <EditText
+        android:id="@+id/venn_telefon_nummer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rest_id" />
+    <EditText
+        android:id="@+id/venn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/leggtil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="leggtil"
+        android:text="@string/all_leggtil"/>
+    <Button
+        android:id="@+id/slett"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="slett"
+        android:text="@string/all_slett" />
+    <Button
+        android:id="@+id/visalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="visalle"
+        android:text="@string/all_visalle" />
+    <Button
+        android:id="@+id/oppdater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oppdater"
+        android:text="@string/all_rediger" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/venn_utskrift" />
+
+</LinearLayout>
